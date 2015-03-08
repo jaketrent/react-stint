@@ -1,6 +1,6 @@
 {
   "name": "react-stint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "reactly timesheet.js",
   "main": "index.js",
   "scripts": {
