@@ -1,0 +1,69 @@
+<!doctype html>
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Default Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="default/app.css"/>
+  <link href="//fonts.googleapis.com/css?family=Oxygen+Mono:400,600,800" rel="stylesheet" type="text/css" />
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet" type="text/css" />
+  <link href="//fonts.googleapis.com/css?family=Signika+Negative:300,400,600,700" rel="stylesheet" type="text/css" />
+</head>
+<body class="black index">
+  <span><a target="_top" href="https://github.com/jaketrent/react-timesheet"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a></span>
+  <div id="container">
+    <div id="box">
+      <div id="box-inner">
+        <h1>
+          react-timesheet
+        </h1>
+
+        <p>
+          A port of <a href="http://sbstjn.github.io/timesheet.js/">timesheet.js</a>.
+          Create simple timelines with JavaScript.
+        </p>
+
+        <div id="example"></div>
+
+        <p>
+          Install with npm:
+        </p>
+
+        <code>
+          <pre>npm install react-timesheet</pre>
+        </code>
+
+        <p>
+          Require it in your code, feed it your data, and render to the page:
+        </p>
+
+        <code>
+          <pre>var React = require('react');
+var Timesheet = require('react-timesheet');
+
+var data = [&#x000A;  ["2002", "09/2002", "A freaking awesome time", "lorem"],&#x000A;  ["06/2002", "09/2003", "Some great memories", "ipsum"],&#x000A;  ["2003", "Had very bad luck"],&#x000A;  ["10/2003", "2006", "At least had fun", "dolor"],&#x000A;  ["02/2005", "05/2006", "Enjoyed those times as well", "ipsum"],&#x000A;  ["07/2005", "09/2005", "Bad luck again", "default"],&#x000A;  ["10/2005", "2008", "For a long time nothing happened", "dolor"],&#x000A;  ["01/2008", "05/2009", "LOST Season #4", "lorem"],&#x000A;  ["01/2009", "05/2009", "LOST Season #4", "lorem"],&#x000A;  ["02/2010", "05/2010", "LOST Season #5", "lorem"],&#x000A;  ["09/2008", "06/2010", "FRINGE #1 &amp; #2", "ipsum"]&#x000A;]);
+
+React.render(&lt;Timesheet min={2002} max={2013} data={data} /&gt;, document.body);</pre>
+        </code>
+
+        <p>
+          Enjoy!
+        </p>
+
+        <p class="footer">
+          react-timesheet is licensed under
+          <a href="https://github.com/jaketrent/react-timesheet/blob/master/LICENSE.md">MIT License</a>
+
+          <a class="heart" href="http://jaketrent.com">❤</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="__build__/shared.js"></script>
+  <script src="__build__/default.js"></script>
+</body>
+
+
+</html>
