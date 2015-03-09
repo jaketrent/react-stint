@@ -2,6 +2,8 @@
 
 A port of [timesheet.js](http://sbstjn.github.io/timesheet.js/).  Create simple timelines with JavaScript.
 
+![react-stint](http://i.imgur.com/YWS7bUQ.png)
+
 ## Install
 
 Available via cjs (browserify or webpack).  Install with npm:
@@ -34,5 +36,33 @@ var data = [
 
 React.render(<Timesheet min={2002} max={2013} data={data} />;, document.body);
 ```
+
+## Examples
+
+Get the repo:
+
+```
+git clone https://github.com/jaketrent/react-stint.git
+```
+
+Install dependencies:
+
+```
+cd react-stint
+npm install
+```
+
+Run the dev server:
+
+```
+npm start
+```
+
+And check it out in a web browser:
+
+```
+open http://localhost:8080
+```
+
 
 Enjoy!
